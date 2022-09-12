@@ -1,9 +1,9 @@
 
 #include <iostream>
-
+using namespace std;
 int main() {
     int arr[5]={3,1,6,4,2};
-    for (int i=1;i<=n;i++){
+    for (int i=1;i<=5;i++){
         int j=i-1;
         int curr=arr[i];
         while(arr[j]>curr && j>=0){
